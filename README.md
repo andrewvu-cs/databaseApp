@@ -1,12 +1,16 @@
 ## libraryCheckout
 Library App for Back-end Engineering project
 
+##### Important Note:
+  - Mac credentials differ from Windows and Linux, to connect to a database Mac requires a 'root' entry for password as seen on dbh.inc.php
+
 ###### Specifications:
   
   - MAMP server host
   - PHP 7.3.1
   - MySQL 5.7.25
-  - Incorporates HTML, CSS, PHP, SQL
+  - Incorporates HTML, CSS, PHP, JS, SQL
+  - Using Bootstrap to style
   - Connected PHP and SQL using MySQLi
   - Must maintain a user session when logged in
   - Involve an application that provides SQL tables that support 3rd normal forms
