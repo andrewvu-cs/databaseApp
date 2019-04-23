@@ -1,0 +1,20 @@
+/* .body{
+    background-color: #E8A87C;
+} */
+
+
+#headerAll{
+    background-color: #E8A87C;
+}
+#bodyHeader{
+    padding-top:5em;
+}
+
+#loggedOutText{
+    padding-top:1em;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #E8A87C;
+}
