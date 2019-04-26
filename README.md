@@ -1,8 +1,8 @@
-## libraryCheckout
-Library App for Back-end Engineering project
+## databaseAPP
+Database App for Back-end Engineering Course project
 
 ##### Important Note:
-  - Mac credentials differ from Windows and Linux, to connect to a database Mac requires a 'root' entry for password as seen on dbh.inc.php
+  - Mac credentials differ from Windows and Linux, to connect to a database.. Mac requires a 'root' entry for password as seen on dbh.inc.php
 
 ###### Specifications:
   
