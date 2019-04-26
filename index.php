@@ -9,11 +9,11 @@
             }
             else{
                 echo '
-                <h1 id="bodyHeader">Welcome to Andrew\'s Secret Library</h1>
+                <h1 id="bodyHeader">Welcome to Andrew\'s  Company landing page, interim CEO!</br></h1>
 
-                
-                <p id="loggedOutText"> We got some really cool books in store but you\'ll 
-                wont be able to see to check it out unless you are <br>SIGNED UP/LOGGED in!</p>';
+                <h2>Were a fortune 431 company!! </h2>
+                <p id="loggedOutText">Sign Up to access the company\'s secret pages.  See all the information about our employees. <br>
+                You must be SIGNED UP/LOGGED in!</p>';
             }
         ?>
     </main>

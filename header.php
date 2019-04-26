@@ -16,21 +16,21 @@
         <nav class="navbar navbar-light justify-content-between">
         <?php
             if (isset($_SESSION['userId'])){
-                echo '<a class="navbar-brand" href="index.php"> Andrew\'s Library</a>
+                echo '<a class="navbar-brand" href="index.php"> Andrew\'s company</a>
                         <ul class="navbar-nav mr-auto d-inline-block">
-                            <li class="nav-item d-inline-block"><a class="nav-link" href="index.php"></a>Home</li>
-                            <li class="nav-item d-inline-block"><a class="nav-link" href="#"></a>About Me</li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="company.php">company</a></li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="secrets.php">Company Secrets</a></li>
                         </ul>';
             }
             else{
-                echo'<a class="navbar-brand" href="index.php"> Andrew\'s Library</a>';
+                echo'<a class="navbar-brand" href="index.php"> Andrew\'s company</a>';
             }
 
         ?>
         <?php
              if (isset($_SESSION['userId'])){
                 echo '<form action="includes/logout.inc.php" method ="post">
-               <button type="submit" name="logout-submit">Logout</button>
+               <button type="submit" class="btn btn-info" name="logout-submit">Logout</button>
                 </form>';
                 }
                 else{

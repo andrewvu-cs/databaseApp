@@ -6,6 +6,14 @@
 #headerAll{
     background-color: #E8A87C;
 }
+
+#secretsHeader{
+    padding-top:1em;
+}
+
+header li{
+    padding-left: 2em;
+}
 #bodyHeader{
     padding-top:5em;
 }
@@ -18,3 +26,7 @@
 footer{
     background-color: #E8A87C;
 }
+
+
+
+

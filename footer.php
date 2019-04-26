@@ -3,7 +3,7 @@
 <footer class="fixed-bottom  border border-info rounded-top">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 Copyright: Andrew Vu
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: Andrew Vu </br> P.S. <a href = "https://andrewvu-cs.github.io/">Hire me.</a>
   </div>
   <!-- Copyright -->
 
