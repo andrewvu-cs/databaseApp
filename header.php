@@ -9,21 +9,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Andrew Vu DB App</title>
 </head>
 <body id="body">
     <header id="headerAll">
         <nav class="navbar navbar-light justify-content-between">
         <?php
             if (isset($_SESSION['userId'])){
-                echo '<a class="navbar-brand" href="index.php"> Andrew\'s company</a>
+                echo '<a class="navbar-brand" href="index.php"> Andrew Vu\'s company</a>
                         <ul class="navbar-nav mr-auto d-inline-block">
-                            <li class="nav-item d-inline-block"><a class="nav-link" href="company.php">company</a></li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="companyselect.php">Company_SELECT</a></li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="companyinsert.php">Company_INSERT</a></li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="companydelete.php">Company_DELETE</a></li>
+                            <li class="nav-item d-inline-block"><a class="nav-link" href="companyupdate.php">Company_UPDATE</a></li>
                             <li class="nav-item d-inline-block"><a class="nav-link" href="secrets.php">Company Secrets</a></li>
                         </ul>';
             }
             else{
-                echo'<a class="navbar-brand" href="index.php"> Andrew\'s company</a>';
+                echo'<a class="navbar-brand" href="index.php"> Andrew Vu\'s company</a>';
             }
 
         ?>
