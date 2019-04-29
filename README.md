@@ -17,10 +17,7 @@ Database App for Back-end Engineering Course project
 
 ##### Need to be done:
   
-  - Schema for library application
-  - Pages that only logged-in users can access
-  - Library checkout system
-  - Better styling
+  - Functional Spec
 
 ##### Done:
   
@@ -28,5 +25,5 @@ Database App for Back-end Engineering Course project
   - database handler script
   - Basic security such as password hashing, form security
   - Users start a session once they are logged in
- 
-  
+  - Company Schema
+  - SELECT, DELETE, UPDATE, INSERT sql query examples
