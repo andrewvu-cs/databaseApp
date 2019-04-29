@@ -10,7 +10,7 @@ if(isset($_POST['signup-submit'])){
     $password = $_POST['pwd'];
     $passwordRepeat = $_POST['pwd-repeat'];
 
-    if (empty($username) ||  empty($email) || empty($password) || empty($passwordRepeat)) {
+    if (empty($username) ||  empty($email) || empty($password) || empty($passwordRepeat) || empty($firstName) || empty($lastName)) {
         header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=".$email);
         exit();
     }
@@ -24,6 +24,14 @@ if(isset($_POST['signup-submit'])){
     }
     else if (!preg_match("/^[a-zA-Z0-9]*$/", $username)) {
         header("Location: ../signup.php?error=invaliduid&mail=".$email);
+        exit();
+    }
+    else if (!preg_match("/^[a-zA-Z]*$/", $firstName)) {
+        header("Location: ../signup.php?error=invalidfirstName");
+        exit();
+    }
+    else if (!preg_match("/^[a-zA-Z]*$/", $lastName)) {
+        header("Location: ../signup.php?error=invalidlastName");
         exit();
     }
     else if ($password !== $passwordRepeat) {
